@@ -18,12 +18,15 @@ namespace Routine.App
             switch (DateTime.Now.DayOfWeek)
             {
                 case DayOfWeek.Monday:
+                    sp.Speak("Today is Monday.");
                     Opener(@"C:\SOFTWARE", @"C:\Program Files\Google\Chrome\Application\chrome.exe");
                     break;
                 case DayOfWeek.Tuesday:
+                    sp.Speak("Today is Tuesday.");
                     Opener(@"C:\SOFTWARE", @"C:\Program Files\Google\Chrome\Application\chrome.exe");
                     break;
                 case DayOfWeek.Wednesday:
+                    sp.Speak("Today is Wednesday.");
                     Opener(@"C:\SOFTWARE", @"C:\Program Files\Google\Chrome\Application\chrome.exe");
                     break;
                 case DayOfWeek.Thursday:
@@ -31,6 +34,7 @@ namespace Routine.App
                     Opener(@"C:\SOFTWARE", @"C:\Program Files\Google\Chrome\Application\chrome.exe");
                     break;
                 case DayOfWeek.Friday:
+                    sp.Speak("Today is Friday.");
                     Opener(@"C:\SOFTWARE", @"C:\Program Files\Google\Chrome\Application\chrome.exe");
                     break;
                 default:
